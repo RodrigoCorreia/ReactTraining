@@ -1,9 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { ListaDeNotas } from './components/ListaDeNotas';
 
 function App() {
   return (
-  <h1>Teste</h1>
+    <section>
+  <form>
+    <input type="text" placeholder="Título"/>
+      <textarea placeholder="Escreva sua nota.."/>
+      <button>Criar Nota</button>
+  </form>
+  <ListaDeNotas/>
+  </section>
   );
 }
 
