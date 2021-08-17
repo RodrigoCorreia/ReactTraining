@@ -1,15 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import { ListaDeNotas } from './components/ListaDeNotas';
-import { FormularioCadastro } from './components/FormularioCadastro';
+import logo from "./logo.svg";
+import "./App.css";
+import { ListaDeNotas } from "./components/ListaDeNotas";
+import { FormularioCadastro } from "./components/FormularioCadastro";
+import { Component } from "react";
 
-function App() {
-  return (
-  <section>
-    <FormularioCadastro/>
-    <ListaDeNotas/>
-  </section>
-  );
+class App extends Component {
+  render() {
+    return (
+      <section>
+        <FormularioCadastro />
+        <ListaDeNotas />
+      </section>
+    );
+  }
 }
 
 export default App;

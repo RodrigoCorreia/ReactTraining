@@ -10,3 +10,5 @@ export class FormularioCadastro extends Component{
           </form>);
     }
 }
+
+export default FormularioCadastro;
