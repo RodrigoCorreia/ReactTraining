@@ -1,16 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { ListaDeNotas } from './components/ListaDeNotas';
+import { FormularioCadastro } from './components/FormularioCadastro';
 
 function App() {
   return (
-    <section>
-  <form>
-    <input type="text" placeholder="Título"/>
-      <textarea placeholder="Escreva sua nota.."/>
-      <button>Criar Nota</button>
-  </form>
-  <ListaDeNotas/>
+  <section>
+    <FormularioCadastro/>
+    <ListaDeNotas/>
   </section>
   );
 }
